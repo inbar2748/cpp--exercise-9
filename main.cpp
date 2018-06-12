@@ -69,7 +69,6 @@ int main() {
 		.check_function(getNum, MyStruct(5), 5)     // Here there is a bug.
 		.check_function([](const MyStruct& s) {return s.myNum(); }, MyStruct(5), 5) // Here there is a bug.
 		.print();
-	getchar();
 }
 
 /* Expected output:
