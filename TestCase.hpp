@@ -62,7 +62,7 @@ public:
 	}
 	
 	void print() {
-	(*stream) << caseName << ": " << failed << " -failed, " << passed << "- passed, " << (passed + failed) << " -total." << endl ;
+	(*stream) << caseName << ": " << failed << " failed, " << passed << " passed, " << (passed + failed) << " total." << endl;
 }
 
 };
